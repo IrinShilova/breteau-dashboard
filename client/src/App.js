@@ -7,6 +7,8 @@ import Loading from "./components/Loading";
 import LoginPage from "./pages/LoginPage";
 import About from "./pages/About";
 import Home from "./pages/Home";
+import CreateSchool from "./CreateSchool";
+
 import Users from "./pages/users/Users";
 import Initiatives from "./pages/initiative";
 
@@ -31,6 +33,7 @@ const App = () => {
 						<Route path="/initiatives" element={<Initiatives />} />
 						<Route path="/users" element={<Users />} />
 						<Route path="/about/this/site" element={<About />} />
+						<Route path="/createschool" element={<CreateSchool />} />
 					</Routes>
 				</Layout>
 			) : (
